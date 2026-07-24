@@ -1,0 +1,12 @@
+[app]
+name = "trana-viz"
+version = "0.1.0"
+
+[[component]]
+name = "viz"
+tag = "ce-viz-trana"
+module = "components/viz.js"
+props = ["node-url", "token"]
+events = []
+needs = []
+backing = "trana + trana/*/v1"
