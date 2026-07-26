@@ -1,0 +1,18 @@
+{
+  "app": "trana-viz",
+  "version": "0.1.0",
+  "components": [
+    {
+      "name": "viz",
+      "tag": "ce-viz-trana",
+      "cid": "e356429b30dbec5465fd25cb8a87a3e6bf3e86870c2df9686301fb1bce3c4428",
+      "props": [
+        "node-url",
+        "token"
+      ],
+      "events": [],
+      "needs": [],
+      "backing": "trana + trana/*/v1"
+    }
+  ]
+}
